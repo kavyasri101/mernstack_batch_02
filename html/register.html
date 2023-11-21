@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<body style="text-align: center; background-color: bisque;">
+    <h1 style="color: blue;">Please sign up here!!!</h1>
+    <form action="register page" method="post">
+        <table border="1" cellpadding="10" cellspacing="0" style="margin: auto;">
+            <tr>
+                <td style="width: 150px;"><label>Enter Username:</label></td>
+                <td><input type="text" style="width: 300px;" placeholder="Username"></td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Enter Password:</label></td>
+                <td><input type="password" style="width: 300px;" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Confirm password:</label></td>
+                <td><input type="password" style="width: 300px;" placeholder="confirm password"></td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Select Gender:</label></td>
+                <td>
+                    <label><input type="radio" name="gender" value="male">Male</label>
+                    <label><input type="radio" name="gender" value="Female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Enter MobileNumber:</label></td>
+                <td><input type="number" style="width: 300px;" required></td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Enter DOB:</label></td>
+                <td><input type="date" style="width: 300px;"></td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Enter address:</label></td>
+                <td><input type="text" style="width: 300px; height: 100px;"></td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Select Qualification:</label></td>
+                <td>
+                    <select style="width: 300px;">
+                        <option value="" disabled selected>Select Qualification</option>
+                        <option value="SSC">SSC</option>
+                        <option value="INTERMEDIATE">INTERMEDIATE</option>
+                        <option value="Graduation">Graduation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Choose your skills</label></td>
+                <td>
+                    <select style="width: 300px;" name="skills" multiple>
+                        <option value="" disabled selected>Select Skill</option>
+                        <option value="Javascript">Javascript</option>
+                        <option value="CSS">CSS</option>
+                        <option value="HTML">HTML</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Preferred Shift</label></td>
+                <td>
+                    <label><input type="checkbox" value="Dayshift">DayShift</label>
+                    <label><input type="checkbox" value="Nightshift">NightShift</label>
+                    <label><input type="checkbox" value="both">DayShift/Nightshift</label>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 150px;"><label>Upload your Resume:</label></td>
+                <td><input type="file" style="width: 300px;"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="button" value="register">Register</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

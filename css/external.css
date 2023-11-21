@@ -1,0 +1,31 @@
+p{
+    color: blue;
+}
+h1{
+    color: brown;
+}
+h3{
+    color: chocolate;
+}
+#first{
+    color: darkblue;
+}
+h4.second{
+    color:crimson;
+    text-align: center;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: green;
+    padding: 10px;
+    
+    
+}
+body{
+    background-color: rgba(110, 160, 30, 0.849);
+    background-image:url("./images/image1.jpeg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 750px;
+}
